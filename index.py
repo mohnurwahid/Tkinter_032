@@ -20,3 +20,15 @@ class AplikasiPrediksiProdi:
             self.root.resizable(False, False)
             self.root.configure(bg=self.BG_UTAMA)
 
+            style = ttk.Style()
+            style.theme_use("clam")
+            style.configure(
+            "Abu.TEntry",
+            fieldbackground="#ffffff",
+            foreground=self.FG_TEKS,
+            bordercolor=self.BORDER,
+            lightcolor=self.BORDER,
+            darkcolor=self.BORDER,
+            padding=4,
+        )
+
