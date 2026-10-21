@@ -85,3 +85,19 @@ class AplikasiPrediksiProdi:
             entry.grid(row=i, column=1, sticky="e", pady=4)
             self.entries.append(entry)
 
+            btn_prediksi = tk.Button(
+            self.root,
+            text="Hasil Prediksi",
+            font=("Segoe UI", 11, "bold"),
+            bg=self.BTN_BG,
+            fg="white",
+            activebackground=self.BTN_ACTIVE,
+            activeforeground="white",
+            relief="flat",
+            cursor="hand2",
+            padx=20,
+            pady=8,
+            command=self.hasil_prediksi,
+        )
+         btn_prediksi.pack(pady=10)
+
