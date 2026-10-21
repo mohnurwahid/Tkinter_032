@@ -12,3 +12,11 @@ class AplikasiPrediksiProdi:
          BTN_BG = "#6b6b6b"
          BTN_ACTIVE = "#4a4a4a"
          BORDER = "#bdbdbd"
+
+         def __init__(self, root):
+            self.root = root
+            self.root.title("Aplikasi Prediksi Prodi Pilihan")
+            self.root.geometry("460x640")
+            self.root.resizable(False, False)
+            self.root.configure(bg=self.BG_UTAMA)
+
