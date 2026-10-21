@@ -50,4 +50,18 @@ class AplikasiPrediksiProdi:
             fg=self.FG_HEADER,
             pady=16,
         )
+            lbl_judul.pack(fill="x")
+
+       
+            frame_input = tk.LabelFrame(
+            self.root,
+            text=" Input Nilai Mata Pelajaran ",
+            font=("Segoe UI", 10, "bold"),
+            bg=self.BG_PANEL,
+            fg=self.FG_TEKS,
+            bd=1,
+            relief="solid",
+            padx=20,
+            pady=10,
+        )
 
