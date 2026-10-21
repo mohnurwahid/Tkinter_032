@@ -118,3 +118,8 @@ class AplikasiPrediksiProdi:
                 fg=self.FG_TEKS,
         )
 
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = AplikasiPrediksiProdi(root)
+    root.mainloop()
+
