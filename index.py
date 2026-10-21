@@ -5,3 +5,10 @@ class AplikasiPrediksiProdi:
     
          BG_UTAMA = "#ffffff"
          BG_HEADER = "#4a4a4a"
+         BG_PANEL = "#f2f2f2"
+         BG_HASIL = "#e6e6e6"
+         FG_TEKS = "#333333"
+         FG_HEADER = "#ffffff"
+         BTN_BG = "#6b6b6b"
+         BTN_ACTIVE = "#4a4a4a"
+         BORDER = "#bdbdbd"
