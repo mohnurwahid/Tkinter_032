@@ -64,4 +64,24 @@ class AplikasiPrediksiProdi:
             padx=20,
             pady=10,
         )
+         frame_input.pack(padx=25, pady=15, fill="x")
+         frame_input.columnconfigure(0, weight=1)
+         frame_input.columnconfigure(1, weight=1)
+
+         for i, nama in enumerate(self.mapel):
+            lbl = tk.Label(
+                frame_input,
+                text=f"{i + 1}. {nama}",
+                font=("Segoe UI", 10),
+                bg=self.BG_PANEL,
+                fg=self.FG_TEKS,
+                anchor="w",
+            )
+            lbl.grid(row=i, column=0, sticky="w", pady=4)
+
+            entry = ttk.Entry(
+                frame_input, width=14, justify="center", style="Abu.TEntry"
+            )
+            entry.grid(row=i, column=1, sticky="e", pady=4)
+            self.entries.append(entry)
 
