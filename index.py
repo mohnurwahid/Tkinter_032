@@ -41,3 +41,13 @@ class AplikasiPrediksiProdi:
 
             self.buat_widget()
 
+         def buat_widget(self):
+            lbl_judul = tk.Label(
+            self.root,
+            text="Aplikasi Prediksi Prodi Pilihan",
+            font=("Segoe UI", 16, "bold"),
+            bg=self.BG_HEADER,
+            fg=self.FG_HEADER,
+            pady=16,
+        )
+
