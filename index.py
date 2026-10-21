@@ -112,4 +112,9 @@ class AplikasiPrediksiProdi:
             pady=14,
         )
          self.lbl_hasil.pack(pady=10)
+         def hasil_prediksi(self):
+            self.lbl_hasil.config(
+                text="Prodi: Teknologi Informasi",
+                fg=self.FG_TEKS,
+        )
 
