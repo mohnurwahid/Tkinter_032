@@ -37,3 +37,7 @@ class AplikasiPrediksiProdi:
             "Ekonomi", "Geografi", "Sejarah", "Sosiologi",
         ]
 
+            self.entries = []
+
+            self.buat_widget()
+
