@@ -1,4 +1,6 @@
 import tkinter as tk
 from tkinter import ttk 
 
-class AplikasiPrediksiProdi:()
+class AplikasiPrediksiProdi:
+    
+         BG_UTAMA = "#ffffff"
