@@ -100,4 +100,16 @@ class AplikasiPrediksiProdi:
             command=self.hasil_prediksi,
         )
          btn_prediksi.pack(pady=10)
+         self.lbl_hasil = tk.Label(
+            self.root,
+            text="Hasil prediksi akan tampil di sini",
+            font=("Segoe UI", 12, "bold"),
+            bg=self.BG_HASIL,
+            fg="#777777",
+            relief="solid",
+            bd=1,
+            width=36,
+            pady=14,
+        )
+         self.lbl_hasil.pack(pady=10)
 
